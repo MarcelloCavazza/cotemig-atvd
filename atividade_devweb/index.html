@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+
+    <h1> Exercício 1 </h1>
+    <label for="primeironum"> Primeiro número:</label>
+    <input type="number" id="primeironum">
+    <br>
+    <label for="segundonum"> Segundo número:</label>
+    <input type="number" id="segundonum">
+    <br>
+    <input type="submit" value="Calcular" onclick="somar()"> </input>
+
+
+    <h1> Exercício 2 </h1>
+    <div id="ex2"> </div> <br>
+    <input type="submit" value="Azul" onclick="azul()">
+    <input type="submit" value="Verde" onclick="verde()">
+    <input type="submit" value="Amarelo" onclick="amarelo()">
+    <input type="submit" value="Vermelho" onclick="vermelho()">
+
+    <p id="ex3" onmouseover="azul()" onmouseout="branco()"> Azul </p>
+    <p id="ex3" onmouseover="verde()" onmouseout="branco()"> Verde </p>
+    <p id="ex3" onmouseover="amarelo()" onmouseout="branco()"> Amarelo </p>
+    <p id="ex3" onmouseover="vermelho()" onmouseout="branco()"> Vermelho </p>
+
+    <h1> Exercicio 3 </h1>
+
+    <div id="exe3"> </div> <br>
+    <label for="cores"> Escolha sua cor: </label>
+
+    <select name="cores" id="cor" onchange="cor()">
+        <option value="azul">Azul</option>
+        <option value="amarelo">Amarelo</option>
+        <option value="verde">Verde</option>
+        <option value="vermelho">Vermelho</option>
+    </select>
+
+    <button onclick="func()"> Seleciona a cor </button>
+
+    <h1> Exercicio 4 </h1>
+    <p id="prg">
+        Texto testetestetestetestetestetestetestetestetestetestetestetestetestetestetestetestetestetesteteste
+    </p>
+    <button onclick="exe4()" ondblclick="ex4()"> Ocultar/mostrar </button>
+
+    <style>
+        div {
+            height: 50px;
+            width: 100%;
+            border: 1px solid black;
+        }
+    </style>
+</body>
+
+</html>

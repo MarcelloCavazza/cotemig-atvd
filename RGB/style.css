@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Akshar', sans-serif;
+    font-size: 4vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inputs{
+    background-color: white;
+    border-style: solid;
+}
+
+#titleR{
+    color: red;
+}
+#titleG{
+    color:green;
+}
+#titleB{
+    color:blue;
+}
